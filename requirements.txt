@@ -1,6 +1,9 @@
+pip install --upgrade pip
+
 streamlit>=1.25
 pandas
 plotly
 google-cloud-bigquery
 google-auth
 st-aggrid==0.4.13
+
