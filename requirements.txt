@@ -3,5 +3,4 @@ pandas
 plotly
 google-cloud-bigquery
 google-auth
-st_aggrid
-python-dateutil
+st-aggrid==0.4.13
