@@ -3,6 +3,6 @@ pandas
 plotly
 google-cloud-bigquery
 google-auth
-st-aggrid==0.4.13
+streamlit-aggrid
 
 
