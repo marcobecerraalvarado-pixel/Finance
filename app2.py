@@ -4,11 +4,7 @@ import pandas as pd
 import altair as alt
 from datetime import datetime
 
-# ---------------------------------------------------------
-# 1. AUTHENTICATION
-# ---------------------------------------------------------
-VALID_USERNAME = "maba"
-VALID_PASSWORD = "16.06"
+2
 
 def login_screen():
     st.title("🔐 Login to Budget App")
@@ -196,3 +192,4 @@ if page == "Budget Planner":
                     update_plan_value(main, row["Category"], row["Year"], row["Month"], new_plan)
                     st.success("Updated!")
                     st.rerun()
+
