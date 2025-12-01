@@ -1,8 +1,14 @@
-streamlit>=1.25
+streamlit
 pandas
-plotly
+altair
+numpy
+python-dateutil
 google-cloud-bigquery
 google-auth
-streamlit-aggrid
+google-auth-oauthlib
+google-auth-httplib2
+pyarrow
+
+
 
 
