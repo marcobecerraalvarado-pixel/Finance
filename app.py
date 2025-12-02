@@ -453,7 +453,7 @@ if "detail_view" not in st.session_state:
 # Sidebar navigation
 with st.sidebar:
     st.markdown("## Budget App")
-    page = st.radio("Navigation", ["Overview", "Budget Planner", "Transactions", "Logout"])
+    page = st.radio("Navigation", ["Overview", "Transactions", "Budget Planner", "Logout"])
 
 if page == "Logout":
     st.session_state["logged_in"] = False
@@ -838,3 +838,4 @@ elif page == "Budget Planner":
             st.markdown("---")
 
 # End of file
+
