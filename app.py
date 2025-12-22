@@ -532,7 +532,7 @@ if page == "Overview":
         if df_display.empty:
             st.info("No planning rows for selected month")
         else:
-            df_display['Delta'] = abs(df_display['Real']) - abs(df_display['Plan'])
+            df_display['Delta'] =  abs(df_display['Plan']) -abs(df_display['Real'])
             df_display = df_display[['MainCategory','Category','Plan','Real','Delta']].rename(columns={'MainCategory':'Main','Category':'Category','Plan':'Plan ($)','Real':'Real ($)','Delta':'Delta ($)'})
             st.dataframe(df_display, use_container_width=True, hide_index=True)
     with right:
@@ -838,4 +838,5 @@ elif page == "Budget Planner":
             st.markdown("---")
 
 # End of file
+
 
